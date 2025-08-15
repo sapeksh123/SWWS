@@ -2,28 +2,140 @@
 import {Link} from "react-router-dom"
 export default function ProductServices() {
   const products = [
-    {
-      name: "Home RO Systems",
-      image: "https://images-na.ssl-images-amazon.com/images/I/71TY8sbokEL._AC_SL1500_.jpg",
-      price: "₹8,999 - ₹25,999",
-      features: ["7-Stage Purification", "UV + UF Technology", "10L Storage Tank", "1 Year Warranty"],
-      
-    },
-    {
-      name: "Commercial RO Plants",
-      image: "https://www.marlo-inc.com/sites/default/files/2021-11/twam-s04e24-01-front-left.jpg",
-      price: "₹45,999 - ₹2,50,000",
-      features: ["High Capacity", "Industrial Grade", "Auto-Flush System", "2 Year Warranty"],
-    
-    },
-    {
-      name: "Alkaline Water Purifiers",
-      image: "https://aquapure.org.pk/wp-content/uploads/2020/12/Untitled-design-1.png",
-      price: "₹15,999 - ₹35,999",
-      features: ["pH Balance Control", "Mineral Enhancement", "Smart Display", "3 Year Warranty"],
-      
-    },
-  ];
+  {
+    name: "Industrial RO System",
+    image: "/images/industrial-ro.jpg",
+    price: "₹1,50,000 - ₹10,00,000",
+    features: [
+      "High-capacity reverse osmosis purification",
+      "Suitable for large-scale industries",
+      "Energy-efficient design",
+      "Customizable flow rate"
+    ]
+  },
+  {
+    name: "Demineralisers Systems",
+    image: "/images/demineralisers.jpg",
+    price: "₹1,20,000 - ₹8,50,000",
+    features: [
+      "Removes dissolved salts and minerals",
+      "Two-bed and mixed-bed designs",
+      "Fully automatic operation",
+      "Low maintenance cost"
+    ]
+  },
+  {
+    name: "Industrial Demineralisers",
+    image: "/images/industrial-demineralisers.jpg",
+    price: "₹1,80,000 - ₹9,00,000",
+    features: [
+      "High-volume water demineralization",
+      "For power plants and manufacturing",
+      "Advanced resin technology",
+      "Long service life"
+    ]
+  },
+  {
+    name: "Filtration System & Accessories",
+    image: "/images/filtration.jpg",
+    price: "₹50,000 - ₹4,50,000",
+    features: [
+      "Multi-grade sand & activated carbon filters",
+      "High dirt holding capacity",
+      "Stainless steel or FRP vessels",
+      "Wide range of accessories available"
+    ]
+  },
+  {
+    name: "RO-EDI Systems",
+    image: "/images/ro-edi.jpg",
+    price: "₹3,00,000 - ₹15,00,000",
+    features: [
+      "Continuous electrodeionization process",
+      "Produces ultra-pure water",
+      "Ideal for pharma and electronics",
+      "Low chemical usage"
+    ]
+  },
+  {
+    name: "Storage & Distribution Loop Line System",
+    image: "/images/storage-loop.jpg",
+    price: "₹2,50,000 - ₹12,00,000",
+    features: [
+      "Hygienic stainless steel tanks",
+      "Automated distribution control",
+      "Loop design prevents contamination",
+      "Custom sizes available"
+    ]
+  },
+  {
+    name: "Ultrafiltration System",
+    image: "/images/ultrafiltration.jpg",
+    price: "₹1,00,000 - ₹6,50,000",
+    features: [
+      "Removes suspended solids & bacteria",
+      "Hollow fiber membrane technology",
+      "Low operating pressure",
+      "Long membrane life"
+    ]
+  },
+  {
+    name: "Hydro-Pneumatic System",
+    image: "/images/hydro-pneumatic.jpg",
+    price: "₹80,000 - ₹5,00,000",
+    features: [
+      "Constant water pressure supply",
+      "Automatic pump operation",
+      "Compact skid-mounted design",
+      "Ideal for commercial buildings"
+    ]
+  },
+  {
+    name: "ETP – Effluent Treatment Plant",
+    image: "/images/etp.jpg",
+    price: "₹3,50,000 - ₹20,00,000",
+    features: [
+      "Treats industrial wastewater",
+      "Meets environmental discharge norms",
+      "Biological and chemical treatment",
+      "Custom plant design"
+    ]
+  },
+  {
+    name: "STP – Sewage Treatment Plant",
+    image: "/images/stp.jpg",
+    price: "₹4,00,000 - ₹18,00,000",
+    features: [
+      "Domestic and commercial sewage treatment",
+      "MBBR, SBR & MBR technologies",
+      "Odor-free operation",
+      "Low power consumption"
+    ]
+  },
+  {
+    name: "Spare Parts",
+    image: "/images/spare-parts.jpg",
+    price: "₹500 - ₹1,50,000",
+    features: [
+      "RO membranes, filters, pumps",
+      "Genuine OEM parts",
+      "Quick availability",
+      "Compatible with multiple brands"
+    ]
+  },
+  {
+    name: "Services AMC, O&M",
+    image: "/images/amc.jpg",
+    price: "₹15,000/year - ₹5,00,000/year",
+    features: [
+      "Annual Maintenance Contracts",
+      "Operation & Management services",
+      "Regular inspection and servicing",
+      "24/7 emergency support"
+    ]
+  }
+];
+
 
   const services = [
     {
@@ -69,46 +181,45 @@ export default function ProductServices() {
           </p>
         </div>
 
-        {/* Products Section */}
-        <div className="mb-20">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#004d40] mb-4">Our Products</h2>
-            <p className="text-lg text-gray-600">Premium quality RO systems for every requirement</p>
-          </div>
+       {/* Products Section */}
+<div className="mb-20">
+  <div className="text-center mb-12">
+    <h2 className="text-3xl font-bold text-[#004d40] mb-4">Our Products</h2>
+    <p className="text-lg text-gray-600">Premium quality water treatment systems for every requirement</p>
+  </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {products.map((product, index) => (
-              <div
-                key={index}
-                className={`bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow  `}
-              >
-                
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-48 object-contain"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.name}</h3>
-                  <div className="text-2xl font-bold text-teal-600 mb-4">{product.price}</div>
-                  <ul className="space-y-2 mb-6">
-                    {product.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center text-gray-600">
-                        <span className="text-cyan-600 mr-2">✓</span>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                  <Link to="/enquiry">
-                  <button className="w-full bg-teal-600 hover:bg-teal-700 text-white py-2 px-4 rounded-lg font-medium transition-colors">
-                    Get Quote
-                  </button>
-                  </Link>
-                </div>
-              </div>
+  <div className="grid md:grid-cols-3 gap-8">
+    {products.map((product, index) => (
+      <div
+        key={index}
+        className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow"
+      >
+        <img
+          src={product.image}
+          alt={product.name}
+          className="w-full h-48 object-cover rounded-t-xl"
+        />
+        <div className="p-6">
+          <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.name}</h3>
+          <div className="text-2xl font-bold text-teal-600 mb-4">{product.price}</div>
+          <ul className="space-y-2 mb-6">
+            {product.features.map((feature, idx) => (
+              <li key={idx} className="flex items-center text-gray-600">
+                <span className="text-cyan-600 mr-2">✓</span>
+                {feature}
+              </li>
             ))}
-          </div>
+          </ul>
+          <Link to="/enquiry">
+            <button className="w-full bg-teal-600 hover:bg-teal-700 text-white py-2 px-4 rounded-lg font-medium transition-colors">
+              Get Quote
+            </button>
+          </Link>
         </div>
+      </div>
+    ))}
+  </div>
+</div>
 
         {/* Services Section */}
         <div className="bg-cyan-50 rounded-2xl p-8 md:p-12">
