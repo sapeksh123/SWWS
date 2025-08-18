@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "name": "RO Membrane",
+    "image": "https://www.aquastream.com.au/assets/full/FRM-CPA5-LD-8040.jpg?20210513154910",
+    "price": 2500,
+    "desc": "High-quality RO membrane for industrial RO systems",
+    "features": [
+      "High salt rejection",
+      "Long service life",
+      "Energy efficient"
+    ],
+    "specification": [
+      "Capacity: 250 LPH",
+      "Material: Polyamide",
+      "Operating Pressure: 150 PSI"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pump Seal",
+    "image": "https://www.pump-mechanicalseals.com/photo/ps32488426-92a_35mm_water_pump_mechanical_seal_double_face_water_pump_mechanical_seals.jpg",
+    "price": 500,
+    "desc": "Durable seal for centrifugal pumps",
+    "features": [
+      "Leak-proof design",
+      "Heat resistant",
+      "Easy installation"
+    ],
+    "specification": [
+      "Size: Standard",
+      "Material: Carbon/Ceramic",
+      "Temperature Range: -20°C to 120°C"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sand Media",
+    "image": "https://image.made-in-china.com/202f0j00LDeoIszqrkby/Automatic-Backwash-600mm-Self-Cleaning-Sand-Media-Filter-Drip-Irrigation-System-for-Agriculture-Farm.webp",
+    "price": 1200,
+    "desc": "Used for filtration in water treatment systems",
+    "features": [
+      "High dirt holding capacity",
+      "Long lifespan",
+      "Removes suspended solids"
+    ],
+    "specification": [
+      "Grade: Fine/Coarse",
+      "Material: Silica Sand",
+      "Application: Water Filtration"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Activated Carbon",
+    "image": "https://www.carbokarn.co.th/wp-content/uploads/2019/05/GAC.png",
+    "price": 1500,
+    "desc": "Removes chlorine, odor, and organic impurities from water",
+    "features": [
+      "High adsorption capacity",
+      "Removes bad taste & odor",
+      "Coconut shell based"
+    ],
+    "specification": [
+      "Iodine Value: 900 mg/g",
+      "Form: Granular",
+      "Moisture: <5%"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "RO Cartridge Filter",
+    "image": "https://5.imimg.com/data5/YY/JQ/MY-2322896/ro-cartridge-filter-500x500.jpg",
+    "price": 800,
+    "desc": "Ensures pre-filtration before RO membranes",
+    "features": [
+      "High dirt holding",
+      "Easy replacement",
+      "Compatible with multiple housings"
+    ],
+    "specification": [
+      "Micron Rating: 5 µm",
+      "Length: 10 inch",
+      "Material: Polypropylene"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Resin Ion-Exchange",
+    "image": "https://image.made-in-china.com/2f0j00rmThAlCnfVqE/New-Design-Ion-Exchange-Resin-Filter-Ultrapure-Water-Purification-System-Cartridge.jpg",
+    "price": 2000,
+    "desc": "Used for softening and demineralization in water treatment",
+    "features": [
+      "High exchange capacity",
+      "Durable resin beads",
+      "Improves water quality"
+    ],
+    "specification": [
+      "Type: Cation/Anion",
+      "Form: Beads",
+      "Moisture Content: 50%"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "FRP Vessels",
+    "image": "https://cpimg.tistatic.com/07880815/b/4/FRP-Vessels.jpg",
+    "price": 5000,
+    "desc": "Durable FRP vessels for water treatment applications",
+    "features": [
+      "Lightweight & strong",
+      "Corrosion resistant",
+      "Easy installation"
+    ],
+    "specification": [
+      "Material: FRP",
+      "Diameter: 8–24 inch",
+      "Working Pressure: 150 PSI"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "RO Housings (FRP, SS)",
+    "image": "https://www.winder1976.com/img/frp-ss-pvc-membrane-housing.png",
+    "price": 3500,
+    "desc": "High-pressure housings for RO membranes, available in FRP and SS",
+    "features": [
+      "Available in FRP & SS",
+      "High pressure tolerance",
+      "Leak-proof design"
+    ],
+    "specification": [
+      "Size: 4 inch / 8 inch",
+      "Material: FRP/SS",
+      "Pressure: 300 PSI"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Filter Housing",
+    "image": "https://i5.walmartimages.com/asr/31d68169-b09e-4772-a7aa-34c565e73330_1.f2b5403c8114f6f017394fc429889514.jpeg",
+    "price": 2200,
+    "desc": "Robust housing for cartridge filters in RO plants",
+    "features": [
+      "Durable build",
+      "Easy maintenance",
+      "Compatible with standard cartridges"
+    ],
+    "specification": [
+      "Size: 10/20 inch",
+      "Material: Polypropylene",
+      "Pressure: 100 PSI"
+    ]
+  }
+]

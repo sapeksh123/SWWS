@@ -1,0 +1,217 @@
+[
+    {
+        "id": 1,
+        "name": "Industrial RO System",
+        "image": "https://i0.wp.com/watertreatmentsa.co.za/wp-content/uploads/2018/10/INDUSTRIAL-RO-PLANT-1.jpg?fit=2340%2C1468&ssl=1",
+        "price": "₹1,50,000 - ₹10,00,000",
+        "desc": "Reverse osmosis (RO) is a water purification technology that uses a semipermeable membrane to remove ions, molecules, and larger particles from drinking water. STARLIN Reverse Osmosis System provides an economical way to obtain pure water from brackish water. These are highly reliable, field proven and cost effective. Designed with flexibility, the series utilize state-of-art spiral wound reverse osmosis membranes. These systems can remove 90 â€“ 98 % of the total dissolved solids.",
+        "features": [
+            "High-capacity reverse osmosis purification",
+            "Suitable for large-scale industries",
+            "Energy-efficient design",
+            "Customizable flow rate"
+        ],
+        "specification": [
+            "Cartridge pre-filter",
+            "SS 316 high pressure feed pump",
+            "FRP pressure vessels",
+            "Spiral wound membrane elements of polyamide type",
+            "SS 316 high-pressure piping"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Demineralisers Systems",
+        "image": "https://www.saitaimpianti.com/wp-content/uploads/2017/02/saita-demineralizzatore-prodotto.jpg",
+        "price": "₹1,20,000 - ₹8,50,000",
+        "desc": "The process of removing mineral salts from water by using the ion exchange process, is known as Demineralization. Twin Bed Portable Demineralizers. Portable Polisher Demineralizers.Removes dissolved salts and minerals. Two-bed and mixed-bed designs with fully automatic operation and low maintenance cost.",
+        "features": [
+            "Removes dissolved salts and minerals",
+            "Two-bed and mixed-bed designs",
+            "Fully automatic operation",
+            "Low maintenance cost"
+        ],
+        "spcification": [
+            "Two-bed or mixed-bed resin vessels",
+            "Automatic control panel",
+            "High flow rate capability",
+            "Stainless steel piping"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Industrial Demineralisers",
+        "image": "https://5.imimg.com/data5/TJ/FN/JK/SELLER-240196/industrial-demineralizer-systems-1000x1000.jpg",
+        "price": "₹1,80,000 - ₹9,00,000",
+        "desc": "Industrial Demineralizer (DI) Systems are designed and manufactured for industrial applications that use to lower the minerals amount % soften the water. Industrial Twin Bed Portable Demineralizers SBU Series Industrial Polisher Bed Demineralizers ",
+        "features": [
+            "High-volume water demineralization",
+            "For power plants and manufacturing",
+            "Advanced resin technology",
+            "Long service life"
+        ],
+        "spcification": [
+            "FRP or SS vessels",
+            "High-capacity resin beds",
+            "Automatic backwash system",
+            "Control panel with indicators"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Softeners Systems",
+        "image": "https://metchem.com/wp-content/uploads/2020/01/Water-Softener-scaled.jpg",
+        "price": "₹1,80,000 - ₹9,00,000",
+        "desc": "Water Softening System, is the removal of calcium, magnesium, and certain other metal cations in hard water. Packaged Softeners U-Series Softeners Industrial Softeners Industrial Downflow Softeners",
+        "features": [
+            "High-volume water demineralization",
+            "For power plants and manufacturing",
+            "Advanced resin technology",
+            "Long service life"
+        ],
+        "spcification": [
+            "FRP or SS vessels",
+            "High-capacity resin beds",
+            "Automatic backwash system",
+            "Control panel with indicators"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Filtration System & Accessories",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2021/7/YA/FQ/OS/104208681/multi-grade-filters-500x500.jpg",
+        "price": "₹50,000 - ₹4,50,000",
+        "desc": "MultiGrade Filter : The Starlin industrial Multigrade Filters is a depth filter that makes use of coarse and fine media mix,together in fixed proportion. This arrangement produces a filter bed with adequate pore dimensions for retaining both large and small suspended particles.This filter performs at a substantially higher specific flow rate than conventional filters. Specific flow rates of 15-30m/h have been successfully obtained for treating waters containing 50-25ppm suspended solids respectively to produce a filtrate with less ",
+        "features": [
+            " Higher specific flow rate than conventional downflow filters thereby saving on space and cost.",
+            " Very little maintenance required.",
+            " Low backwash water requirement.",
+            " In most cases, raw water can be used for backwash."
+        ],
+        "spcification": [
+            "One set of internal water distribution and collection system.",
+            " One initial charge of filter sand and under bed material.",
+            " One set of frontal pipe work and valves.",
+            " Two pressure gauges to monitor head loss across the filter.",
+            " Maximum/minimum operating pressure will be 3.5kg./cm and 2.0kg./cm respectively."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "RO-EDI Systems",
+        "image": "https://image.made-in-china.com/2f0j00revbPqgzHCoY/RO-EDI-Water-Treatment-System-Water-Filter-Treatment-System-for-Industrial.jpg ",
+        "price": "₹3,00,000 - ₹15,00,000",
+        "desc": "Our fully integrated and fully automated RO-EDI System is a highly optimized system for efficient water and power management. The compact skid mounted system is comes connection ready and with complete validation package. The system is designed to deliver compendial water Purified Water as per all major pharmacopeias",
+        "features": [
+            "Ready to commission, Plug and Play system",
+            "Fully Sanitary SS 316L construction",
+            "Factory assembled and tested",
+            " PLC with intuitive touch screen HMI",
+            " Hot water subitizable RO & EDI modules"
+        ],
+        "spcification": [
+            "EDI stack modules",
+            "RO pre-treatment",
+            "Control panel",
+            "Flow meters & sensors"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Storage & Distribution Loop Line System",
+        "image": "https://hiflux.in/wp-content/uploads/2021/04/WFI_systems.jpg",
+        "price": "₹2,50,000 - ₹12,00,000",
+        "desc": "Our Purified Water Distribution, Dis-infection and monitoring systems are designed to be Plug & Play. They are compact skid mounted, pre-assembled, tested and prewired in the factory. The system can be in-situ sanitized (CIP) with hot water or Ozone or can be steam sterilized in place (SIP).Jacketed, Insulated, Electropolished, Storage Tank (SS316L) 365 deg. Spray Ball with Jacketed Vent filter",
+        "features": [
+            "UV System with intensity monitor",
+            "Compact Distribution, Disinfection and Monitoring skid",
+            "TOC Analyser, Flow, Pressure, Temperature Transmitter",
+            "Control Panel with PLC and touch screen HMI",
+            "Designed with Power Saving features including (VFD)"
+        ],
+        "spcification": [
+            "SS storage tanks",
+            "Loop piping system",
+            "Automated valves",
+            "Control system integration"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Ultrafiltration System",
+        "image": "https://iwateriq.com/wp-content/uploads/2022/01/Ultrafiltration-System-UF.jpg",
+        "price": "₹1,00,000 - ₹6,50,000",
+        "desc": "Ultrafiltration systems are key to enable optimal performance of UF System. Our Fully automated, hot water subitizable Ultrafiltration (UF) System ensures SDI < 3 and at least 6 log reduction of bacteria, 5 log reduction of viruses and 4 log viral load reduction. The fully automated system ensures timely backwash based on timer or differential pressure. This esures the system runs healthy at all times. The CIP is also fully automated. The system is designed as a compact and skid mounted model. The SS/CI pumps ensure high reliability, easy serviceability and trouble free operation for a long time.Fully automated operation, backwash and sanitization cycles",
+        "features": [
+            "Insite CIP and backwash",
+            "Compact skid mounted, prewired & pre-tested",
+            "PES membranes with 6 KD / 10 KD NMW cutoff",
+            "Hot water subitizable up to 98 deg. C ",
+            "High pH tolerance (1-12) for effective backwash / cleaning",
+            "High Chlorine tolerance (200ppm) for sanitization"
+        ],
+        "spcification": [
+            "Hollow fiber membranes",
+            "Feed water pump",
+            "Control valves & gauges",
+            "Cleaning system"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Hydro-Pneumatic System",
+        "image": "https://www.worldpumps.com/media/ozslnwnj/3c30101c-5dc1-49c2-a065-8a154927557e.jpg",
+        "price": "₹80,000 - ₹5,00,000",
+        "desc": "Hydro pneumatics tank contains pressurized air and water. It does not have a bladder and air is in direct contact with the water. The compressed air acts as a cushion exerting or absorbing pressure.The system is most ideal for High Rise Apartments and Buildings where the demand of water is variable and fitted with modern bathroom fittings like Jacuzzis, shower etc. which require pressurized water for better functioning of the fittings",
+        "features": [
+            "Constant water pressure supply",
+            "Automatic pump operation",
+            "Compact skid-mounted design",
+            "Ideal for commercial buildings"
+        ],
+        "spcification": [
+            "Pressure tank",
+            "Pump unit",
+            "Pressure switch",
+            "Control panel"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "ETP – Effluent Treatment Plant",
+        "image": "https://image7.slideserve.com/12217483/effluent-treatment-plant-3-l.jpg",
+        "price": "₹3,50,000 - ₹20,00,000",
+        "desc": "We are manufacturing the ETP Plant as per client Requirement and Applications as per specification of industry. We offer The ETP System with conventional Treatment like MBR, MBBR, SAFF, UF, NF, DAF, SBR, Multi Evaporator with Prefabricated Unit. Used the Plant are ZLD and Reused",
+        "features": [
+            "Treats industrial wastewater",
+            "Meets environmental discharge norms",
+            "Biological and chemical treatment",
+            "Custom plant design"
+        ],
+        "spcification": [
+            "Clarifiers",
+            "Aeration tanks",
+            "Sludge handling",
+            "Chemical dosing system"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "STP – Sewage Treatment Plant",
+        "image": "https://www.ppsthane.com/wp-content/uploads/2016/03/sewage-treatment-plant.jpg",
+        "price": "₹4,00,000 - ₹18,00,000",
+        "desc": "Sewage water Treatment is the process of removing contaminants form waste water and household sewage . Both runoff(Effluent) and domestic. The sewage from the residential and commercial building is the treated for reduction in BOD, COD & TSS in order to comply  with the pollution control board standards. Sewage water treatment plant several Processes like Chemical, Biological and Physical processes of water Treatment. These methods of water treatment plants are successfully remove mud, effluent and poisonous material from the sewage water",
+        "features": [
+            "Domestic and commercial sewage treatment",
+            "MBBR, SBR & MBR technologies",
+            "Odor-free operation",
+            "Low power consumption"
+        ],
+        "spcification": [
+            "Primary sedimentation tank",
+            "Biological treatment unit",
+            "Sludge dewatering",
+            "Control panel"
+        ]
+    }
+]

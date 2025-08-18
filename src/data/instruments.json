@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Flow Meter",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.vaHLvBXB28kNU6Ry0p2JxgHaHa?pid=Api&P=0&h=180",
+    "price": 3500,
+    "description": "Accurate device designed to measure the flow rate of water and other liquids in pipelines. Essential for monitoring water usage and ensuring efficiency in industrial and domestic applications. Built with durable materials for long-lasting performance.",
+    "features": [
+      "High accuracy flow measurement",
+      "Durable and corrosion-resistant body",
+      "Easy installation and maintenance"
+    ],
+    "specifications": {
+      "Type": "Electromagnetic/Mechanical",
+      "Size Range": "15mm – 300mm",
+      "Flow Range": "0.1 to 1000 m³/h",
+      "Accuracy": "±0.5%",
+      "Material": "SS / Brass / Plastic options"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Pressure Gauge",
+    "image": "https://res.cloudinary.com/rsc/image/upload/w_1024/F0110832-01",
+    "price": 1500,
+    "description": "Reliable device for monitoring and displaying pressure in RO systems and industrial pipelines. Designed to handle high pressure with accuracy. Provides easy readability for continuous operation.",
+    "features": [
+      "Clear dial display for easy reading",
+      "High durability under varying pressure",
+      "Available in multiple pressure ranges"
+    ],
+    "specifications": {
+      "Dial Size": "2” / 4”",
+      "Pressure Range": "0 – 25 bar / custom",
+      "Accuracy": "±1.6%",
+      "Connection": "1/4” or 1/2” BSP/NPT",
+      "Material": "Stainless Steel / Brass"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Conductivity Transmitter",
+    "image": "https://image.made-in-china.com/2f0j00kzbqlIiBMwcN/Electrical-Conductivity-Metering-Devices-Online-Digital-Conductivity-Meter.jpg",
+    "price": 4200,
+    "description": "Advanced transmitter for monitoring conductivity levels to ensure water quality in RO plants and industrial systems. Provides continuous and precise measurement for optimal process control.",
+    "features": [
+      "High sensitivity to conductivity changes",
+      "Digital signal transmission",
+      "Compact and reliable design"
+    ],
+    "specifications": {
+      "Range": "0 – 2000 µS/cm",
+      "Output": "4-20 mA",
+      "Accuracy": "±1%",
+      "Material": "SS 316 probe",
+      "Power Supply": "24V DC"
+    }
+  },
+  {
+    "id": 4,
+    "name": "pH Transmitter",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/319600998/KY/ED/HF/599596/ph-indicating-transmitter-500x500.PNG",
+    "price": 3800,
+    "description": "Accurate instrument that measures and transmits pH levels in water treatment systems. Ensures stable pH monitoring for industrial, laboratory, and municipal water systems.",
+    "features": [
+      "Fast and stable pH measurement",
+      "Automatic temperature compensation",
+      "Suitable for continuous online monitoring"
+    ],
+    "specifications": {
+      "Range": "0 – 14 pH",
+      "Accuracy": "±0.01 pH",
+      "Output": "4-20 mA",
+      "Temperature Range": "0 – 80°C",
+      "Power Supply": "24V DC"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Pressure Transmitter",
+    "image": "https://www.reylenferna.com/wp-content/uploads/2019/06/EJA310E.jpg",
+    "price": 3100,
+    "description": "Provides highly accurate pressure monitoring and signal transmission for RO plants, boilers, and industrial processes. Built for reliable performance even in harsh conditions.",
+    "features": [
+      "Robust construction for industrial use",
+      "Wide pressure measurement range",
+      "Compact design with easy integration"
+    ],
+    "specifications": {
+      "Range": "0 – 25 bar",
+      "Output": "4-20 mA",
+      "Accuracy": "±0.25%",
+      "Material": "SS 316",
+      "Power Supply": "24V DC"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Level Transmitter",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.0RaXKh1lCFDypsfja-x6tAHaHa?pid=Api&P=0&h=180",
+    "price": 4500,
+    "description": "Ensures precise liquid level measurement in tanks, reservoirs, and process systems. Designed for continuous operation and accurate data output in water treatment and chemical industries.",
+    "features": [
+      "Non-contact and contact type options",
+      "High measurement accuracy",
+      "Durable and long service life"
+    ],
+    "specifications": {
+      "Range": "0 – 10 m",
+      "Accuracy": "±0.5%",
+      "Output": "4-20 mA",
+      "Material": "SS 316 / PVC",
+      "Power Supply": "24V DC"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Level Switch",
+    "image": "https://www.interautomatika.eu/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/s/e/se111_rotary_paddle_level_switch.jpg",
+    "price": 2800,
+    "description": "Reliable device that detects and controls liquid levels using a float or probe mechanism. Widely used in water treatment, chemical plants, and storage tanks for safety and automation.",
+    "features": [
+      "Simple and effective level control",
+      "Available in float and probe designs",
+      "Long-lasting and maintenance-free"
+    ],
+    "specifications": {
+      "Type": "Float / Probe",
+      "Range": "Up to 5 m",
+      "Switching Output": "SPDT / DPDT",
+      "Material": "SS 316 / PVC",
+      "Operating Temp": "-10°C to 80°C"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Flow Transmitter",
+    "image": "https://www.flo-corp.com/wp-content/uploads/2017/01/Flow-Transmitter_PDTX4-web.jpg",
+    "price": 4000,
+    "description": "Measures and transmits flow rate data in pipelines with high accuracy. Suitable for continuous process monitoring in RO plants, chemical industries, and water treatment systems.",
+    "features": [
+      "High accuracy flow sensing",
+      "4-20 mA output for integration",
+      "Works with various pipe sizes"
+    ],
+    "specifications": {
+      "Range": "0.1 – 1000 m³/h",
+      "Output": "4-20 mA",
+      "Accuracy": "±0.5%",
+      "Material": "SS / PVC",
+      "Power Supply": "24V DC"
+    }
+  }
+]

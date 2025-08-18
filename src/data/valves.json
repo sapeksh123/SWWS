@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "UPVC Ball Valve",
+    "image": "https://www.fusionqld.com.au/wp-content/uploads/2016/04/Ball-Valve-True-Union-1.png",
+    "price": 1200,
+    "desc": "Durable UPVC ball valve for industrial piping systems. Corrosion-resistant and lightweight, making it ideal for chemical and water applications. Provides smooth operation with minimal maintenance requirements.",
+    "features": [
+      "High chemical resistance",
+      "Lightweight and easy to install",
+      "Leak-proof sealing design"
+    ],
+    "specifications": {
+      "Material": "UPVC",
+      "Size Range": "1/2 inch – 4 inch",
+      "Pressure Rating": "PN10",
+      "Applications": "Water supply, chemical industries"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Butterfly Valves",
+    "image": "https://www.industrialvalvenews.com/wp-content/uploads/2017/07/pic-data.jpg",
+    "price": 1500,
+    "desc": "Efficient butterfly valves suitable for flow control. Designed for tight shut-off and easy operation in water treatment and industrial pipelines. Cost-effective solution with long service life.",
+    "features": [
+      "Quick quarter-turn operation",
+      "Compact and lightweight design",
+      "Suitable for large pipeline diameters"
+    ],
+    "specifications": {
+      "Material": "Cast Iron / Stainless Steel",
+      "Size Range": "2 inch – 24 inch",
+      "Pressure Rating": "PN16",
+      "Applications": "Water treatment, HVAC, chemical plants"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Globe Valves",
+    "image": "https://www.valve-gmk.com/wp-content/uploads/2022/08/4.Globe-valves.png",
+    "price": 1800,
+    "desc": "Globe valves designed for precise throttling and flow regulation. Commonly used in steam, oil, and chemical industries. Heavy-duty construction ensures durability and high performance.",
+    "features": [
+      "Excellent throttling capability",
+      "Rugged construction for durability",
+      "Reliable leak-tight sealing"
+    ],
+    "specifications": {
+      "Material": "Carbon Steel / Stainless Steel",
+      "Size Range": "1/2 inch – 12 inch",
+      "Pressure Rating": "Class 150 – 600",
+      "Applications": "Steam, oil, petrochemical industries"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Not Return Valves",
+    "image": "https://alsunnahengineering.com/wp-content/uploads/2021/07/non-return-valve.jpg",
+    "price": 1000,
+    "desc": "Prevents backflow in pipelines, ideal for industrial use. Ensures unidirectional flow to protect pumps and compressors. Easy to install and requires minimal maintenance.",
+    "features": [
+      "Unidirectional flow design",
+      "Protects pumps and compressors",
+      "Low-pressure drop across valve"
+    ],
+    "specifications": {
+      "Material": "Cast Iron / Brass / Stainless Steel",
+      "Size Range": "1/2 inch – 8 inch",
+      "Pressure Rating": "PN10 – PN16",
+      "Applications": "Pumping systems, water distribution"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Solenoid Valves",
+    "image": "https://content.toolots.com/media/catalog/product/cache/1/small_image/fd2c6820d7d512d5e7e5a15d4f852118/s/f/sf2w250-n25-24vdc_4__2.jpg",
+    "price": 2500,
+    "desc": "Electrically operated valves for automated control. Widely used in water, air, and chemical process industries. Provides fast switching and reliable shut-off.",
+    "features": [
+      "Fast and reliable operation",
+      "Low power consumption",
+      "Available in normally open/closed types"
+    ],
+    "specifications": {
+      "Material": "Brass / Stainless Steel",
+      "Size Range": "1/4 inch – 2 inch",
+      "Pressure Rating": "0 – 10 bar",
+      "Applications": "Automation, water treatment, pneumatics"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Pneumatic Actuator Ball Valves",
+    "image": "https://actuatedvalvesupplies.com/app/uploads/2018/05/Stainless-Ball-Valve-Flanged-PA4101-min.png",
+    "price": 5000,
+    "desc": "Pneumatic actuated ball valves for precise and fast operation. Suitable for high-pressure systems requiring quick response. Durable build ensures long service life in tough environments.",
+    "features": [
+      "Quick response actuation",
+      "Heavy-duty construction",
+      "Ideal for high-pressure systems"
+    ],
+    "specifications": {
+      "Material": "Stainless Steel / Carbon Steel",
+      "Size Range": "1/2 inch – 12 inch",
+      "Pressure Rating": "Class 150 – 600",
+      "Applications": "Oil & Gas, power plants, automation systems"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Motorized Control Valves",
+    "image": "https://static1.squarespace.com/static/568fc9bac21b86decbc1965f/t/5798e2b8be6594eb19645dd7/1469637314752/",
+    "price": 7000,
+    "desc": "Motor-driven valves for automated industrial processes. Designed for accurate control of liquid and gas flow. Ideal for integration with SCADA and modern automation systems.",
+    "features": [
+      "Accurate electronic control",
+      "Easy integration with automation systems",
+      "Suitable for liquid and gas flow"
+    ],
+    "specifications": {
+      "Material": "Cast Iron / Stainless Steel",
+      "Size Range": "1 inch – 16 inch",
+      "Pressure Rating": "PN16 – PN25",
+      "Applications": "SCADA systems, process automation"
+    }
+  }
+]
