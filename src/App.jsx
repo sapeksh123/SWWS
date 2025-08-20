@@ -31,7 +31,7 @@ export default function App() {
           {/* <Route path="/shop" element={<ShopOnline />} /> */}
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/videos" element={<YoutubeVideos />} />
-          <Route path="/payment" element={<Payment />} />
+          {/* <Route path="/payment" element={<Payment />} /> */}
           <Route path="/enquiry" element={<Enquiry />} />
           <Route path="/buy-now" element={<BuyNow />} />
           <Route path="/earn-refer" element={< EarnRefer />} />

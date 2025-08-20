@@ -16,7 +16,7 @@ export default function Header() {
     // { name: "Shop", path: "/shop" },
     { name: "Gallery", path: "/gallery" },
     { name: "Videos", path: "/videos" },
-    { name: "Payment", path: "/payment" },
+    // { name: "Payment", path: "/payment" },
     { name: "Contact", path: "/enquiry" },
   ]
 
