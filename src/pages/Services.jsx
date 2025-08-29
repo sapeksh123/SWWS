@@ -68,7 +68,7 @@ const Services = () => {
             Within a span of years, Sea World Water Solution has rolled out more than 1200
             pressure vessels and now works exclusively on economical and compact
             Reverse Osmosis Systems, wastewater recycling, and advanced water
-            treatment. Our facilities are located in Thane, with dedicated
+            treatment. Our facilities are located in Bhiwadi Alwar RJ, with dedicated
             rubber-lining job work capabilities.
           </p>
         </div>
