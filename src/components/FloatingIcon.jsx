@@ -1,5 +1,5 @@
 import { MapPin } from 'lucide-react';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaWhatsapp, FaPhone, FaComments, FaTimes } from 'react-icons/fa';
 
 const FloatingIcon = () => {
@@ -11,7 +11,7 @@ const FloatingIcon = () => {
         <>
           {/* location */}
           <a
-            href="https://www.google.com/maps?TB 515 , Capital Galleria , Bhiwadi Alwar-301019 Rajasthan, India"
+            href="https://www.google.com/maps?q=TB515,Capital+Galleria,Bhiwadi,Alwar-301019,Rajasthan,India"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-rose-500 hover:bg-rose-600 text-white p-3 rounded-full shadow-md transition-all duration-300"
@@ -19,6 +19,7 @@ const FloatingIcon = () => {
           >
             <MapPin size={22} />
           </a>
+
 
           {/* WhatsApp */}
           <a

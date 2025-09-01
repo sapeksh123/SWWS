@@ -2,7 +2,7 @@
 import { useState } from "react"
 import { Link, useLocation } from "react-router-dom"
 import logo from "../assets/logo.png" 
-import { Phone, Mail, Gift, Menu, X } from "lucide-react"
+import { Phone, Mail, Menu, X } from "lucide-react"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,7 +15,7 @@ export default function Header() {
     { name: "Services", path: "/services" },
     // { name: "Shop", path: "/shop" },
     { name: "Gallery", path: "/gallery" },
-    { name: "Videos", path: "/videos" },
+    // { name: "Videos", path: "/videos" },
     // { name: "Payment", path: "/payment" },
     { name: "Contact", path: "/enquiry" },
   ]
@@ -72,14 +72,14 @@ export default function Header() {
             </nav>
 
             {/* CTA Button */}
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <Link to="/earn-refer">
                 <button className="flex items-center gap-2 ml-4 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 hover:from-yellow-500 hover:to-red-600 text-white px-6 py-2 rounded-full font-bold shadow-xl hover:shadow-amber-300 transition-transform duration-300 transform hover:scale-110 border-2 border-white">
                   <Gift className="w-5 h-5" />
                   Earn & Refer
                 </button>
               </Link>
-            </div>
+            </div> */}
 
             {/* Mobile Menu Button */}
             <button
@@ -109,12 +109,12 @@ export default function Header() {
                   </Link>
                 ))}
 
-                <Link to="/earn-refer" onClick={() => setIsMenuOpen(false)}>
+                {/* <Link to="/earn-refer" onClick={() => setIsMenuOpen(false)}>
                   <button className="mt-4 w-full flex items-center justify-center gap-2 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 hover:from-yellow-500 hover:to-red-600 text-white px-6 py-3 rounded-full font-bold text-lg shadow-xl hover:shadow-amber-300 transform transition-transform duration-300 hover:scale-110 border-2 border-white">
                     <Gift className="w-5 h-5" />
                     Earn & Refer
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </nav>
           )}

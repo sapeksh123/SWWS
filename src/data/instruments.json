@@ -150,5 +150,44 @@
       "Material": "SS / PVC",
       "Power Supply": "24V DC"
     }
+  },
+  {
+  "id": 9,
+  "name": "Rotameter",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLLpfYwpBW_IzY4rO9GOGTUfsR2gQQJNsxKA&s",
+  "price": 4000,
+  "description": "A mechanical flow meter that measures liquid or gas flow by the position of a float inside a tapered tube. Commonly used in water treatment plants, laboratories, and chemical industries for simple and cost-effective flow monitoring.",
+  "features": [
+    "No external power required",
+    "Simple and reliable mechanical design",
+    "Direct visual indication of flow rate"
+  ],
+  "specifications": {
+    "Range": "10 – 100 LPH (varies with model)",
+    "Output": "Local indication (optionally with transmitter)",
+    "Accuracy": "±2% of full scale",
+    "Material": "Glass tube / SS / PVC",
+    "Power Supply": "Not required (for basic model)"
   }
+},
+{
+  "id": 10,
+  "name": "Electromagnetic Flowmeter",
+  "image": "https://www.spectecvalves.com/images/Electromagnetic%20flow%20meter/Electro%20Magnetic%20Flowmeter.png",
+  "price": 4000,
+  "description": "An advanced flow meter that uses Faraday’s law of electromagnetic induction to measure flow of conductive liquids. Widely used in water supply, wastewater, chemical, and food industries for highly accurate flow measurement.",
+  "features": [
+    "High accuracy flow measurement",
+    "No moving parts, minimal maintenance",
+    "4-20 mA / pulse output for automation systems"
+  ],
+  "specifications": {
+    "Range": "0.1 – 1000 m³/h",
+    "Output": "4-20 mA / RS485 / Pulse",
+    "Accuracy": "±0.5% of reading",
+    "Material": "SS / PTFE lining / PVC",
+    "Power Supply": "24V DC / 230V AC"
+  }
+}
+
 ]
