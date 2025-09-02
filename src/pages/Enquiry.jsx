@@ -97,7 +97,7 @@ export default function Enquiry() {
                   <InputField label="Phone Number *" name="phone" type="tel" required value={formData.phone} onChange={handleInputChange} placeholder="Enter your phone number" />
                 </div>
                 <div className="grid md:grid-cols-2 gap-6">
-                  <InputField label="Email Address" name="email" type="email"  required value={formData.email} onChange={handleInputChange} placeholder="Enter your email" />
+                  <InputField label="Email Address" name="email" type="email" required value={formData.email} onChange={handleInputChange} placeholder="Enter your email" />
                   <InputField label="City *" name="city" required value={formData.city} onChange={handleInputChange} placeholder="Enter your city" />
                 </div>
                 <div>
@@ -120,7 +120,7 @@ export default function Enquiry() {
                   <textarea
                     name="message"
                     rows="4"
-                     required
+                    required
                     value={formData.message}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
@@ -128,7 +128,7 @@ export default function Enquiry() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Rate our service *</label>
+                  {/* <label className="block text-sm font-medium text-gray-700 mb-2">Rate our service *</label>
                   <div className="flex space-x-2">
                     {[1, 2, 3, 4, 5].map((num) => (
                       <Star
@@ -137,7 +137,7 @@ export default function Enquiry() {
                         className={`w-6 h-6 cursor-pointer ${num <= rating ? "text-yellow-500" : "text-gray-300"}`}
                       />
                     ))}
-                  </div>
+                  </div> */}
                 </div>
                 <button
                   type="submit"
@@ -152,54 +152,53 @@ export default function Enquiry() {
 
           {/* Contact Info */}
           <div className="space-y-8">
-            <InfoCard icon={<Phone className="h-6 w-6 text-blue-600" />} title="Phone" lines={["+91 98765 43210", "+91 87654 32109"]} />
-            <InfoCard icon={<Mail className="h-6 w-6 text-green-600" />} title="Email" lines={["seaworldwater11@gmail.com", "support@seaworldwater.in"]} />
+            <InfoCard icon={<Phone className="h-6 w-6 text-blue-600" />} title="Phone" lines={["+91 7987696387"]} />
+            <InfoCard icon={<Mail className="h-6 w-6 text-green-600" />} title="Email" lines={["seaworldwater11@gmail.com" ]} />
             <InfoCard icon={<MapPin className="h-6 w-6 text-red-600" />} title="Address" lines={["TB 515 , Capital Galleria , Bhiwadi Alwar-301019 Rajasthan, India"]} />
             <InfoCard icon={<Clock className="h-6 w-6 text-purple-600" />} title="Business Hours" lines={["Mon-Sat: 9:00 AM - 7:00 PM", "Sunday: 10:00 AM - 5:00 PM"]} />
           </div>
         </div>
 
-      
-       {/* Feedback Display */}
-<div className="mt-16 max-w-6xl mx-auto">
-  <h3 className="text-3xl font-bold text-[#016055] mb-6 text-center">User Feedbacks</h3>
-  {feedbacks.length > 0 ? (
-    <div className="grid md:grid-cols-2 gap-6 max-h-[500px] overflow-y-auto px-2">
-      {feedbacks.map((fb, idx) => (
-        <div
-          key={idx}
-          className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 transition hover:shadow-xl"
-        >
-          <div className="mb-2 flex justify-between items-center">
-            <div className="text-lg font-semibold text-[#016055]">
-              {fb.name} <span className="text-sm text-gray-500">({fb.city})</span>
-            </div>
-            <div className="flex">
-              {[1, 2, 3, 4, 5].map((num) => (
-                <Star
-                  key={num}
-                  className={`w-5 h-5 ${
-                    num <= fb.rating ? "text-yellow-500" : "text-gray-300"
-                  }`}
-                />
+
+        {/* Feedback Display */}
+        {/* <div className="mt-16 max-w-6xl mx-auto">
+          <h3 className="text-3xl font-bold text-[#016055] mb-6 text-center">User Feedbacks</h3>
+          {feedbacks.length > 0 ? (
+            <div className="grid md:grid-cols-2 gap-6 max-h-[500px] overflow-y-auto px-2">
+              {feedbacks.map((fb, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 transition hover:shadow-xl"
+                >
+                  <div className="mb-2 flex justify-between items-center">
+                    <div className="text-lg font-semibold text-[#016055]">
+                      {fb.name} <span className="text-sm text-gray-500">({fb.city})</span>
+                    </div>
+                    <div className="flex">
+                      {[1, 2, 3, 4, 5].map((num) => (
+                        <Star
+                          key={num}
+                          className={`w-5 h-5 ${num <= fb.rating ? "text-yellow-500" : "text-gray-300"
+                            }`}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                  <p className="text-gray-600 text-sm mb-2">{fb.date}</p>
+                  <p className="text-gray-700 italic">
+                    {fb.message || "No message provided "}
+                  </p>
+                </div>
               ))}
             </div>
-          </div>
-          <p className="text-gray-600 text-sm mb-2">{fb.date}</p>
-          <p className="text-gray-700 italic">
-            {fb.message || "No message provided "}
-          </p>
-        </div>
-      ))}
-    </div>
-  ) : (
-    <p className="text-gray-600 text-center">No feedback submitted yet.</p>
-  )}
-</div>
+          ) : (
+            <p className="text-gray-600 text-center">No feedback submitted yet.</p>
+          )}
+        </div> */}
 
 
 
-       
+
       </div>
     </div>
   )

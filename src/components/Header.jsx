@@ -28,7 +28,7 @@ export default function Header() {
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
             <span className="flex items-center gap-1">
               <Phone className="h-4 w-4" />
-              +91 98765 43210
+              +91 7987696387
             </span>
             <span className="flex items-center gap-1">
               <Mail className="h-4 w-4" />

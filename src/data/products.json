@@ -213,5 +213,44 @@
             "Sludge dewatering",
             "Control panel"
         ]
-    }
+    },
+   {
+    "id": 12,
+    "name": "WTP – Water Treatment Plant",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw8UnqouJpNfYvinDkyuR_nmLvz3K_qv6j5g&s",
+    "price": "₹2,00,000 - ₹15,00,000",
+    "desc": "We manufacture Water Treatment Plants (WTP) for purification and filtration of raw water from different sources like borewell, river, or municipal supply. Our WTP units are designed to remove impurities, hardness, turbidity, and bacteria, ensuring safe and potable water supply for industrial, commercial, and residential use.",
+    "features": [
+        "Removes suspended solids and turbidity",
+        "Ensures safe and potable water",
+        "Suitable for industrial and domestic applications",
+        "Customizable treatment capacity"
+    ],
+    "spcification": [
+        "Sand and carbon filters",
+        "RO membrane systems",
+        "Softening unit",
+        "Disinfection system (UV/Chlorination)"
+    ]
+},
+{
+    "id": 13,
+    "name": "ZLD – Zero Liquid Discharge Plant",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCLd7hPTO-qnESbuZWp7brpaJjSY4Md45Dgg&s",
+    "price": "₹8,00,000 - ₹50,00,000",
+    "desc": "Our Zero Liquid Discharge (ZLD) Plants are engineered to recover, recycle, and reuse wastewater by eliminating liquid discharge completely. Using advanced evaporators, crystallizers, and RO systems, ZLD plants are widely adopted in textile, pharma, and chemical industries to meet stringent environmental compliance and achieve sustainability.",
+    "features": [
+        "Achieves complete wastewater recycling",
+        "Ensures zero liquid discharge",
+        "Meets stringent environmental norms",
+        "Reduces freshwater dependency"
+    ],
+    "spcification": [
+        "Multi-effect evaporators",
+        "Crystallizers",
+        "RO and UF membranes",
+        "Sludge drying system"
+    ]
+}
+
 ]

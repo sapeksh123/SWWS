@@ -26,7 +26,7 @@ const Footer = () => {
 
 
             <p className="text-gray-400 mb-4 text-sm">
-              India's most trusted water purification service provider, ensuring safe, clean, and pure drinking water for every family.
+              India`s most trusted water purification service provider, ensuring safe, clean, and pure drinking water for every family.
             </p>
 
             {/* Social Icons */}
@@ -102,7 +102,7 @@ const Footer = () => {
       </span>
       <div>
         <p className="text-white font-medium">Phone</p>
-        <a href="tel:+919876543210" className="text-gray-400 hover:text-blue-400">
+        <a href="tel:+917987696387" className="text-gray-400 hover:text-blue-400">
           +91 7987696387
         </a>
       </div>
@@ -114,8 +114,8 @@ const Footer = () => {
       </span>
       <div>
         <p className="text-white font-medium">Email</p>
-        <a href="mailto:rameshtiwari0394@gmail.com" className="text-gray-400 hover:text-blue-400">
-          rameshtiwari0394@gmail.com
+        <a href="mailto:seaworldwater11@gmail.com" className="text-gray-400 hover:text-blue-400">
+          seaworldwater11@gmail.com
         </a>
       </div>
     </div>

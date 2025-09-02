@@ -47,8 +47,8 @@ export default function ProductsPage() {
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-[#016055] mb-4">Products</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-  Offering top-quality water purification products along with expert installation and maintenance services to ensure clean and safe water for your home or business.
-</p>
+            Offering top-quality water purification products along with expert installation and maintenance services to ensure clean and safe water for your home or business.
+          </p>
 
         </div>
 
@@ -81,29 +81,45 @@ export default function ProductsPage() {
             No products found.
           </p>
         ) : (
-          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {filteredItems.map((item) => (
               <div
                 key={`${item.type}-${item.id}`}
-                className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow cursor-pointer"
-                onClick={() => handleCardClick(item.id, item.type)} 
+                className="flex flex-col bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow "
+              // onClick={() => handleCardClick(item.id, item.type)}
               >
+                {/* Image */}
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-full h-54 object-contain rounded-t-xl"
+                  className="w-full h-48 object-contain rounded-t-xl p-2"
                 />
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">
+
+                {/* Content */}
+                <div className="flex flex-col flex-grow p-6">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-3 text-center">
                     {item.name}
                   </h3>
-                  <div className="text-2xl font-bold text-teal-600 mb-4">
-                    {item.price}
+
+                  {/* Price (optional) */}
+                  {/* <div className="text-xl font-bold text-teal-600 mb-4 text-center">
+          {item.price}
+        </div> */}
+
+                  {/* Button */}
+                  <div className="flex justify-center">
+                    <button
+    className="bg-teal-600 hover:bg-teal-700 text-white py-3 px-3 rounded-lg font-medium transition-colors text-sm"
+    onClick={() => handleCardClick(item.id, item.type)}
+  >
+    Get Quote
+  </button>
                   </div>
                 </div>
               </div>
             ))}
           </div>
+
         )}
       </div>
     </div>

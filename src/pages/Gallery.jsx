@@ -9,37 +9,37 @@ export default function Gallery() {
   const galleryImages = [
     {
       id: 1,
-      src: "https://www.aquabestuae.com/wp-content/uploads/2023/05/best-alkaline-ro-system.jpeg",
+      src: "https://www.livemint.com/lm-img/img/2025/07/08/600x338/Water_purifier_1751975616467_1751975623167.png",
       title: "Modern Kitchen Installation",
       description: "Premium RO system installed in contemporary kitchen",
     },
     {
       id: 2,
-      src: "https://www.maxwaterflow.com/assets/images/default/shop/101080-systems-plain.jpg",
+      src: "https://3.imimg.com/data3/WH/CJ/MY-1617241/mineral-water-purifier-500x500.jpg",
       title: "Commercial RO Plant",
       description: "Large capacity RO plant for office building",
     },
     {
       id: 3,
-      src: "https://www.aquabestuae.com/wp-content/uploads/2023/05/best-alkaline-ro-system.jpeg",
+      src: "https://media.istockphoto.com/id/1367659306/photo/2-asian-chinese-drinking-water-factory-production-line-workers-with-ppe-examining-water.jpg?s=612x612&w=0&k=20&c=DB2B1cS7lbSuJzPXbacct51j--9ZmsfoQjndgTmpL9g=",
       title: "Product Range",
       description: "Complete range of RO water purification systems",
     },
     {
       id: 4,
-      src: "https://www.maxwaterflow.com/assets/images/default/shop/101080-systems-plain.jpg",
+      src: "https://media.istockphoto.com/id/1496542231/photo/house-water-filtration-system-in-basement.jpg?s=612x612&w=0&k=20&c=u8z7ybPvPzQcxDyQSjVh3_nVb4mCuLbqMlPqFjWXQ_k=",
       title: "Professional Installation",
       description: "Certified technician performing installation",
     },
     {
       id: 5,
-      src: "https://www.aquabestuae.com/wp-content/uploads/2023/05/best-alkaline-ro-system.jpeg",
+      src: "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2025-04/Water%20purifier.jpg",
       title: "Expert Team",
       description: "Our experienced water purification specialists",
     },
     {
       id: 6,
-      src: "https://www.maxwaterflow.com/assets/images/default/shop/101080-systems-plain.jpg",
+      src: "https://4.imimg.com/data4/NL/TM/MY-16687112/ro-plant-5000-lph-_17.jpg",
       title: "Alkaline Water Purifier",
       description: "Advanced alkaline water purifier with pH control",
     },

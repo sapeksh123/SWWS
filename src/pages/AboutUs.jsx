@@ -150,29 +150,16 @@ export default function AboutUs() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="ml-84 gap-8 w-[500px]">
             {[
               {
-                name: "Rajesh Kumar",
+                name: "Ramesh Tiwari",
                 role: "Founder & CEO",
                 experience: "15+ years in water purification",
                 image:
-                  "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png"
+                  "/ramesh-tiwari.jpg"
               },
-              {
-                name: "Priya Sharma",
-                role: "Chief Technology Officer",
-                experience: "PhD in Environmental Engineering",
-                image:
-                  "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png"
-              },
-              {
-                name: "Amit Patel",
-                role: "Chief Operations Officer",
-                experience: "Operations and customer satisfaction expert",
-                image:
-                  "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png"
-              }
+
             ].map((member, index) => (
               <div
                 key={index}

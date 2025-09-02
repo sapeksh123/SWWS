@@ -129,7 +129,7 @@ export default function Home() {
               {/* Experience */}
               <div className="p-4 rounded-xl bg-black/30 backdrop-blur-md shadow-[0_0_15px_rgba(16,185,129,0.4)] hover:shadow-[0_0_25px_rgba(16,185,129,0.7)] transition-all">
                 <div className="text-4xl font-extrabold text-emerald-400 drop-shadow-[0_0_15px_rgba(16,185,129,0.9)] mb-1">
-                  5+
+                  7+
                 </div>
                 <div className="text-gray-100 text-sm tracking-wide">Years Experience</div>
               </div>
