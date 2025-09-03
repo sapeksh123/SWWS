@@ -46,7 +46,7 @@ export default function Enquiry() {
       setTimeout(() => {
         setShowSuccess(false);
         setIsSubmitted(true);
-      }, 1000);
+      }, 200);
     } catch (err) {
       console.error("Submission failed:", err);
     }
