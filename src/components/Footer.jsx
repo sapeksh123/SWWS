@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Youtube , ArrowBigUp } from "lucide-react";
+import { Facebook, Twitter, Instagram, Youtube, ArrowBigUp } from "lucide-react";
 import logo from "../assets/logo.png"
 
 import { HiOutlinePhone, HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
@@ -89,51 +89,48 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-     
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
+            <div className="space-y-3 text-sm">
 
+              <div className="flex items-start space-x-3">
+                <span className="text-white-400 mt-1">
+                  <HiOutlinePhone />
+                </span>
+                <div>
+                  <p className="text-white font-medium">Phone</p>
+                  <a href="tel:+917987696387" className="text-gray-400 hover:text-blue-400">
+                    +91 7987696387
+                  </a>
+                </div>
+              </div>
 
-<div>
-  <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
-  <div className="space-y-3 text-sm">
-    
-    <div className="flex items-start space-x-3">
-      <span className="text-white-400 mt-1">
-        <HiOutlinePhone />
-      </span>
-      <div>
-        <p className="text-white font-medium">Phone</p>
-        <a href="tel:+917987696387" className="text-gray-400 hover:text-blue-400">
-          +91 7987696387
-        </a>
-      </div>
-    </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-white-400 mt-1">
+                  <HiOutlineMail />
+                </span>
+                <div>
+                  <p className="text-white font-medium">Email</p>
+                  <a href="mailto:seaworldwater11@gmail.com" className="text-gray-400 hover:text-blue-400">
+                    seaworldwater11@gmail.com
+                  </a>
+                </div>
+              </div>
 
-    <div className="flex items-start space-x-3">
-      <span className="text-white-400 mt-1">
-        <HiOutlineMail />
-      </span>
-      <div>
-        <p className="text-white font-medium">Email</p>
-        <a href="mailto:seaworldwater11@gmail.com" className="text-gray-400 hover:text-blue-400">
-          seaworldwater11@gmail.com
-        </a>
-      </div>
-    </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-white-400 mt-1">
+                  <HiOutlineLocationMarker />
+                </span>
+                <div>
+                  <p className="text-white font-medium">Address</p>
+                  <p className="text-gray-400">
+                    TB 515 , Capital Galleria , Bhiwadi Alwar-301019 Rajasthan, India
+                  </p>
+                </div>
+              </div>
 
-    <div className="flex items-start space-x-3">
-      <span className="text-white-400 mt-1">
-        <HiOutlineLocationMarker />
-      </span>
-      <div>
-        <p className="text-white font-medium">Address</p>
-        <p className="text-gray-400">
-          TB-515, CAPTIAL GARRERIA BHIWADI ALWAR, RAJASTHAN , INDIA -301019
-        </p>
-      </div>
-    </div>
-
-  </div>
-</div>
+            </div>
+          </div>
 
 
         </div>
@@ -153,7 +150,7 @@ const Footer = () => {
               className="bg-cyan-800 hover:bg-emerald-700 text-white px-1 py-1 rounded-full transition-colors"
               title="Back to Top"
             >
-             <ArrowBigUp/>
+              <ArrowBigUp />
 
             </button>
           </div>

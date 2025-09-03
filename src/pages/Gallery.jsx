@@ -9,7 +9,7 @@ export default function Gallery() {
   const galleryImages = [
     {
       id: 1,
-      src: "https://www.livemint.com/lm-img/img/2025/07/08/600x338/Water_purifier_1751975616467_1751975623167.png",
+      src: "https://dukaan.b-cdn.net/700x700/webp/3833956/b21a1bd7-5ae4-46f0-a9e2-ac82fe937cbd/industrial-ro-plant-577dacef-918d-4076-b46b-4fc1f49a6bc1.jpg",
       title: "Modern Kitchen Installation",
       description: "Premium RO system installed in contemporary kitchen",
     },
@@ -33,7 +33,7 @@ export default function Gallery() {
     },
     {
       id: 5,
-      src: "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2025-04/Water%20purifier.jpg",
+      src: "https://media.istockphoto.com/id/157400197/photo/reverse-osmosis-water-treatment-plant.jpg?s=612x612&w=0&k=20&c=sedFqktA0fq3YVarTTnqk4qwlKMAOJCwF0iYKGkrxM4=",
       title: "Expert Team",
       description: "Our experienced water purification specialists",
     },
@@ -43,6 +43,25 @@ export default function Gallery() {
       title: "Alkaline Water Purifier",
       description: "Advanced alkaline water purifier with pH control",
     },
+    {
+      id: 7,
+      src: "https://media.istockphoto.com/id/157400197/photo/reverse-osmosis-water-treatment-plant.jpg?s=612x612&w=0&k=20&c=sedFqktA0fq3YVarTTnqk4qwlKMAOJCwF0iYKGkrxM4=",
+      title: "UV + RO Water Purifier",
+      description: "High-performance UV + RO water purifier for safe drinking water",
+    },
+    {
+      id: 8,
+      src: "https://www.okwater.in/images/products/Industrial-RO-Plant1.jpg",
+      title: "Industrial RO Plant",
+      description: "Large-scale industrial RO system for continuous water supply",
+    },
+    {
+      id: 9,
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqV3H2m5cRtQAbWcfkTP0qshENMwV4JgnfHw&s",
+      title: "Compact RO System",
+      description: "Space-saving RO system ideal for small offices and homes",
+    },
+
   ]
 
   const openModal = (image) => setSelectedImage(image)
@@ -53,14 +72,14 @@ export default function Gallery() {
       <div className="container mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1  className="text-4xl md:text-5xl font-bold text-[#016055] mb-4">Gallery</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#016055] mb-4">Gallery</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Explore our work, products, and installations
           </p>
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {galleryImages.map((image) => (
             <div
               key={image.id}
@@ -71,12 +90,12 @@ export default function Gallery() {
                 <img
                   src={image.src}
                   alt={image.title}
-                  className="w-full h-64 object-contain group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-64 object-fill group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-4 left-4 right-4 text-gray-800">
-                    <h3 className="font-bold text-lg">{image.title}</h3>
-                    <p className="text-sm text-gray-700">{image.description}</p>
+                  <div className="absolute bottom-4 left-4 right-4 text-gray-200">
+                    <h3 className="font-extrabold text-lg">{image.title}</h3>
+                    <p className="text-sm text-gray-100">{image.description}</p>
                   </div>
                   <div className="absolute top-4 right-4">
                     <ZoomIn className="h-6 w-6 text-gray-800" />
@@ -87,7 +106,7 @@ export default function Gallery() {
           ))}
         </div>
 
-       
+
       </div>
 
       {/* Modal */}

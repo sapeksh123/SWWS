@@ -93,7 +93,7 @@ export default function ProductDetail() {
           </div>
 
           <Link to="/enquiry" className="mt-6">
-            <button className="w-full bg-teal-600 hover:bg-teal-700 text-white py-3 px-4 rounded-lg font-medium transition-colors text-lg">
+            <button className="w-full bg-teal-600 cursor-pointer hover:bg-teal-700 text-white py-3 px-4 rounded-lg font-medium transition-colors text-lg">
               Get Quote
             </button>
           </Link>

@@ -85,8 +85,7 @@ export default function ProductsPage() {
             {filteredItems.map((item) => (
               <div
                 key={`${item.type}-${item.id}`}
-                className="flex flex-col bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow "
-              // onClick={() => handleCardClick(item.id, item.type)}
+                className="flex flex-col bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow"
               >
                 {/* Image */}
                 <img
@@ -106,19 +105,20 @@ export default function ProductsPage() {
           {item.price}
         </div> */}
 
-                  {/* Button */}
-                  <div className="flex justify-center">
+                  {/* Button locked at bottom */}
+                  <div className="mt-auto">
                     <button
-    className="bg-teal-600 hover:bg-teal-700 text-white py-3 px-3 rounded-lg font-medium transition-colors text-sm"
-    onClick={() => handleCardClick(item.id, item.type)}
-  >
-    Get Quote
-  </button>
+                      className="w-full bg-teal-600 cursor-pointer hover:bg-teal-700 text-white py-2 rounded-lg font-medium transition-colors text-sm"
+                      onClick={() => handleCardClick(item.id, item.type)}
+                    >
+                      View Details
+                    </button>
                   </div>
                 </div>
               </div>
             ))}
           </div>
+
 
         )}
       </div>
